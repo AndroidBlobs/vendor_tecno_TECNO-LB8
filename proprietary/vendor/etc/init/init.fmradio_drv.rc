@@ -1,0 +1,8 @@
+
+# load fmradio_drv
+on property:vendor.connsys.driver.ready=yes
+  insmod /vendor/lib/modules/fmradio_drv.ko
+#TSD: modify XWWYLGOLYS-362 by chongchong.zhou 20181219 start
+# modify fm permissions
+  chmod 0666 /dev/fm
+#TSD: modify XWWYLGOLYS-362 by chongchong.zhou 20181219 end

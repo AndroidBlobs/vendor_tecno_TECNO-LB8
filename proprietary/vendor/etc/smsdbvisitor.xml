@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SmsDbVisitor version="1">
+<SmsDbVisitor package="com.mediatek.datatransfer"/>
+<SmsDbVisitor package="com.mediatek.op18.plugin"/>
+<SmsDbVisitor package="com.mediatek.apst.target"/>
+<SmsDbVisitor package="com.mediatek.backuprestore"/>
+<SmsDbVisitor package="com.mediatek.ppl"/>
+<SmsDbVisitor package="com.mediatek.rcs.messageservice"/>
+<SmsDbVisitor package="com.android.mms"/>
+<!--TDD:add XWWYWPO-4745 by zhijunjun 2018-09-26 start-->
+<SmsDbVisitor package="com.transsion.statisticalsales"/>
+<!--TDD:add XWWYWPO-4745 by zhijunjun 2018-09-26 end-->
+<SmsDbVisitor package="com.mediatek.omacp"/>
+</SmsDbVisitor>

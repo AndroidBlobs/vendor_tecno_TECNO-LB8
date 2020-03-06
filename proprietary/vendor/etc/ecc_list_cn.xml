@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccTable>
+    <!--
+        China
+        The attribute definition for tag EccEntry:
+        - Ecc: the emergnecy number
+        - Category: the service category
+        - Condition: there are following values:
+            - 0: ecc only when no sim
+            - 1: ecc always
+            - 2: MMI will show ecc but send to nw as normal call
+    -->
+   <EccEntry Ecc="119" Category="0" Condition="2" Name="Fire" />
+   <EccEntry Ecc="120" Category="0" Condition="1" Name="First Aid" />
+   <EccEntry Ecc="1111" Category="0" Condition="1" Name="aaaaa" />
+   <EccEntry Ecc="2222" Category="0" Condition="2" Name="bbbbb" />
+   <EccEntry Ecc="3333" Category="0" Condition="2" Name="Emergency Number" />
+</EccTable>

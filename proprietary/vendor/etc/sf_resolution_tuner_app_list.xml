@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+-->
+<resolution-tuner>
+<!-- example
+    <app>
+        <packagename>com.tencent.tmgp.pubgmhd</packagename>
+        <scale>0.6666</scale>
+    </app>
+-->
+    <app>
+        <packagename>com.tencent.ig</packagename>
+        <scale>0.6667</scale>
+    </app>
+    <app>
+        <packagename>com.tencent.tmgp.pubgmhd</packagename>
+        <scale>0.6667</scale>
+    </app>
+    <app>
+        <packagename>com.pubg.krmobile</packagename>
+        <scale>0.6667</scale>
+    </app>
+    <app>
+        <packagename>vn.vng.pubgmobile</packagename>
+        <scale>0.6667</scale>
+    </app>
+    <app>
+        <packagename>com.rekoo.pubgm</packagename>
+        <scale>0.6667</scale>
+    </app>
+</resolution-tuner>

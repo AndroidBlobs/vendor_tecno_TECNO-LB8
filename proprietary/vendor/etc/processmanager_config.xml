@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="keep_favorite_app_num" value="8" />
+    <int name="sleep_clean_delay_time" value="600" />
+    <int name="keep_adj" value="200" />
+    <int name="keep_notification_app" value="4" />
+    <int name="keep_rencent_task" value="8" />
+
+    <list name="google_app_white_list">
+        <string>com.drawelements.deqp</string>
+        <string>com.replica.replicaisland</string>
+        <string>android.alarmclock.service</string>
+        <string>android.assist.testapp</string>
+        <string>android.assist.service</string>
+        <string>com.android.compatibility.common.deviceinfo</string>
+        <string>android.jobscheduler.cts.deviceside</string>
+        <string>android.tests.devicesetup</string>
+        <string>android.voicesettings.service</string>
+        <string>android.voiceinteraction.testapp</string>
+        <string>android.view.accessibility.services</string>
+        <string>android.signature</string>
+        <string>android.voiceinteraction.service</string>
+        <string>com.android.defcontainer</string>
+        <string>com.android.cts.verifier</string>
+        <string>android.externalservice.service</string>
+        <string>android.theme.app</string>
+        <string>android.libcore.runner</string>
+        <string>com.android.tradefed.utils.wifi</string>
+        <string>android.admin.app</string>
+        <string>android.app.stubs</string>
+        <string>com.google.android.apps.youtube.testsuite</string>
+        <string>com.google.android.exoplayer.playbacktests</string>
+        <string>com.android.vending</string>
+        <string>com.google.android.instantapps.supervisor</string>
+    </list>
+    <list name="auto_start_white_list">
+        <string>com.facebook.services</string>
+        <string>com.facebook.katana</string>
+        <string>com.facebook.orca</string>
+        <string>com.whatsapp</string>
+        <string>com.truecaller</string>
+        <string>com.viber.voip</string>
+        <string>com.instagram.android</string>
+        <string>jp.naver.line.android</string>
+        <string>com.boatmob.floating.touch</string>
+        <string>com.skype.raider</string>
+        <string>mobile.lab.PhoneCallDetect</string>
+        <string>com.tencent.mobileqqi</string>
+        <string>com.qq.wpc</string>
+        <string>com.parfield.prayers.lite</string>
+        <string>com.tencent.mobileqq</string>
+        <string>com.tencent.mm</string>
+        <string>com.mediatek.systemupdate</string>
+        <string>com.android.settings</string>
+        <string>com.rlk.frameworkservice</string>
+        <string>com.afmobigroup.gphone</string>
+        <string>com.afmobi.carlcare</string>
+        <string>com.bbm</string>
+        <string>com.twitter.android</string>
+        <string>org.telegram.messenger</string>
+        <string>com.imo.android.imoim</string>
+        <string>com.jio.join</string>
+        <string>com.libra.notification</string>
+        <string>com.excelliance.dualaid.vend</string>
+        <string>com.oraimo.appjoywear</string>
+        <string>com.zing.mp3</string><!-- CABGHLSS-523 -->
+        <string>com.domobile.applock</string><!-- INEHSJY-4625 -->
+        <!--PPD: add for XWWYWPO-5544 by zhangzhiqiang 20181016 start -->
+        <string>com.fooview.android.fooview.transsion</string>
+        <string>com.transsion.videocallenhancer</string>
+        <!--PPD: add for XWWYWPO-5544 by zhangzhiqiang 20181016 end -->
+        <!--PPD: add for AOPSWP-259 by zhangzhiqiang 20181019 start -->
+        <string>com.transsion.alarmmanager</string>
+        <string>com.transsion.testcaserepository</string>
+        <!--PPD: add for AOPSWP-259 by zhangzhiqiang 20181019 end -->
+        <!--PPD: add AOPSWP-180 by zhangzhiqiang 20181030 start -->
+        <string>com.transsion.agingfunction</string>
+        <!--PPD: add AOPSWP-180 by zhangzhiqiang 20181030 end -->
+        <!--PPD: add for OS5.0 by zhangzhiqiang 20190115 start -->
+        <string>com.transsion.readmode</string>
+        <string>com.sh.smart.caller</string>
+        <!--PPD: add for OS5.0 by zhangzhiqiang 20190115 end -->
+        <!-- PPD: added for KBQJHBLEW-947 by shashaliu 20190123 start -->
+        <string>com.facebook.lite</string>
+        <!-- PPD: added for KBQJHBLEW-947 by shashaliu 20190123 end -->
+        <string>com.skyroam.silverhelper</string><!-- PPD: Added by hanhao 20190304 for VSIM PROJ -->
+        <string>com.transsion.keyguardgesture</string><!-- PPD: Added by hanhao 20190314 for KeyguardGuester -->
+        <string>com.android.mtp</string><!-- PPD: Added by hanhao 20190320 for ASQHLYB-814 -->
+        <string>com.android.showae</string><!-- PPD: Added by feng.an 20190423 for PROCMANA-2 -->
+        <string>com.google.android.gsf</string><!-- SID: Added by zhao.li 20190412 for LCLAEA-252 -->
+        <string>com.android.vending</string><!-- PPD: Added by hao.han 20190520 for XLEWCHWQL-1897 -->
+    </list>
+
+    <list name="smart_clean_white_list">
+        <string>com.facebook.services</string>
+        <string>com.facebook.katana</string>
+        <string>com.facebook.orca</string>
+        <string>com.whatsapp</string>
+        <string>com.truecaller</string>
+        <string>com.viber.voip</string>
+        <string>com.instagram.android</string>
+        <string>jp.naver.line.android</string>
+        <string>com.boatmob.floating.touch</string>
+        <string>com.skype.raider</string>
+        <string>mobile.lab.PhoneCallDetect</string>
+        <string>com.tencent.mobileqqi</string>
+        <string>com.qq.wpc</string>
+        <string>com.parfield.prayers.lite</string>
+        <string>com.tencent.mobileqq</string>
+        <string>com.tencent.mm</string>
+        <string>com.mediatek.systemupdate</string>
+        <string>com.rlk.frameworkservice</string>
+        <string>com.afmobigroup.gphone</string>
+        <string>com.afmobi.carlcare</string>
+        <string>com.bbm</string>
+        <string>com.twitter.android</string>
+        <string>org.telegram.messenger</string>
+        <string>com.imo.android.imoim</string>
+        <string>com.jio.join</string>
+        <string>com.libra.notification</string>
+        <string>com.excelliance.dualaid.vend</string>
+        <string>com.android.dialer</string>
+        <string>com.android.contacts</string>
+        <string>com.android.mms</string>
+        <string>com.android.deskclock</string>
+        <string>com.transsion.deskclock</string>
+        <!--<string>com.android.settings</string>--><!-- HLSSPUB-7469 -->
+        <string>com.android.gallery3d</string>
+        <string>com.mediatek.camera</string>
+        <string>com.android.incallui</string>
+        <string>com.transsion.phonemaster</string>
+        <string>com.transsion.phonemanager</string>
+        <string>com.rlk.powersavemanagement</string>
+        <string>com.transsion.powercenter</string>
+        <string>com.oraimo.appjoywear</string>
+        <string>com.transsion.subtorch</string><!-- HIOSOREL-2619 -->
+        <string>com.android.documentsui</string><!-- FFFTHEOZZ-399 -->
+        <string>com.domobile.applock</string><!-- INEHSJY-4625 -->
+        <string>com.transsion.applock</string>
+        <string>com.transsion.screenshot</string>
+        <!--PPD: add XWWYWPO-2279 by shasha.liu 20180830 start  -->
+        <string>com.transsion.screenrecord</string>
+        <!--PPD: add XWWYWPO-2279 by shasha.liu 20180830 end  -->
+        <!--PPD: add for XWWYWPO-5544 by zhangzhiqiang 20181016 start -->
+        <string>com.fooview.android.fooview.transsion</string>
+        <string>com.transsion.videocallenhancer</string>
+        <!--PPD: add for XWWYWPO-5544 by zhangzhiqiang 20181016 end -->
+        <!--PPD: add for AOPSWP-259 by zhangzhiqiang 20181019 start -->
+        <string>com.transsion.alarmmanager</string>
+        <string>com.transsion.testcaserepository</string>
+        <!--PPD: add for AOPSWP-259 by zhangzhiqiang 20181019 end -->
+        <!--PPD: add AOPSWP-180 by zhangzhiqiang 20181030 start -->
+        <string>com.transsion.agingfunction</string>
+        <!--PPD: add AOPSWP-180 by zhangzhiqiang 20181030 end -->
+        <!--PPD: add for OS5.0 by zhangzhiqiang 20190115 start -->
+        <string>com.transsion.readmode</string>
+        <string>com.sh.smart.caller</string>
+        <!--PPD: add for OS5.0 by zhangzhiqiang 20190115 end -->
+        <!-- PPD: added for KBQJHBLEW-947 by shashaliu 20190123 start -->
+        <string>com.facebook.lite</string>
+        <!-- PPD: added for KBQJHBLEW-947 by shashaliu 20190123 end -->
+        <string>com.skyroam.silverhelper</string><!-- PPD: Added by hanhao 20190304 for VSIM PROJ -->
+        <string>com.transsion.keyguardgesture</string><!-- PPD: Added by hanhao 20190314 for KeyguardGuester -->
+        <string>com.android.mtp</string><!-- PPD: Added by hanhao 20190320 for ASQHLYB-814 -->
+        <string>com.android.showae</string><!-- PPD: Added by feng.an 20190423 for PROCMANA-2 -->
+        <string>com.google.android.gsf</string><!-- SID: Added by zhao.li 20190412 for LCLAEA-252 -->
+        <string>com.android.vending</string><!-- PPD: Added by hao.han 20190520 for XLEWCHWQL-1897 -->
+    </list>
+
+    <list name="overall_white_list">
+        <string>com.facebook.services</string>
+        <string>com.facebook.katana</string>
+        <string>com.facebook.orca</string>
+        <string>com.whatsapp</string>
+        <string>com.truecaller</string>
+        <string>com.viber.voip</string>
+        <string>com.instagram.android</string>
+        <string>jp.naver.line.android</string>
+        <string>com.boatmob.floating.touch</string>
+        <string>com.skype.raider</string>
+        <string>mobile.lab.PhoneCallDetect</string>
+        <string>com.tencent.mobileqqi</string>
+        <string>com.qq.wpc</string>
+        <string>com.parfield.prayers.lite</string>
+        <string>com.tencent.mobileqq</string>
+        <string>com.tencent.mm</string>
+        <string>com.mediatek.systemupdate</string>
+        <string>com.android.settings</string>
+        <string>com.rlk.frameworkservice</string>
+        <string>com.afmobigroup.gphone</string>
+        <string>com.afmobi.carlcare</string>
+        <string>com.bbm</string>
+        <string>com.twitter.android</string>
+        <string>org.telegram.messenger</string>
+        <string>com.imo.android.imoim</string>
+        <string>com.jio.join</string>
+        <string>com.libra.notification</string>
+        <string>com.excelliance.dualaid.vend</string>
+        <string>com.oraimo.appjoywear</string>
+        <!-- PPD: added for KBQJHBLEW-947 by shashaliu 20190123 start -->
+        <string>com.facebook.lite</string>
+        <!-- PPD: added for KBQJHBLEW-947 by shashaliu 20190123 end -->
+    </list>
+
+    <!-- These are for upgarde -->
+    <list name="upgrade_auto_start_list">
+    </list>
+    <list name="upgrade_smart_clean_list">
+    </list>
+</map>

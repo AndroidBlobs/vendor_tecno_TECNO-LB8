@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccTable>
+    <!--
+        Algeria
+        The attribute definition for tag EccEntry:
+        - Ecc: the emergnecy number
+        - Category: the service category
+        - Condition: there are following values:
+            - 0: ecc only when no sim
+            - 1: ecc always
+            - 2: MMI will show ecc but send to nw as normal call
+    -->
+   <EccEntry Ecc="17" Category="0" Condition="1" Name="Police" />
+   <EccEntry Ecc="14" Category="0" Condition="1" Name="Citizen protection" />
+   <EccEntry Ecc="123" Category="0" Condition="1" Name="Road" />
+   <EccEntry Ecc="3033" Category="0" Condition="1" Name="Family violence" />
+   <EccEntry Ecc="021507777" Category="0" Condition="1" Name="Ambulance" />
+   <EccEntry Ecc="021235050" Category="0" Condition="2" Name="Samu Alger" />
+   <EccEntry Ecc="021979898" Category="0" Condition="1" Name="Anti-Poison center" />
+   <EccEntry Ecc="1548" Category="0" Condition="1" Name="Emergency Number" />
+   <EccEntry Ecc="1055" Category="0" Condition="2" Name="Gendarmerie" />
+</EccTable>
